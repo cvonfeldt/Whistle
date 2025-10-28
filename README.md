@@ -5,5 +5,5 @@ Worked in a small team and was responsible for managing backend utilities - ensu
 Challenges: The main challenge was navigating a Java environment setup issue that prevented Google Sign-In authentication. The primary obstacle was that JAVA_HOME wasn't configured 
 and keytool commands weren't available in the system PATH, blocking our ability to obtain the required SHA-1 fingerprint. I had to manually locate Android Studio's built-in Java 
 installation and deal with some PowerShell syntax issues when executing commands. The most significant challenge was understanding that the misleading SecurityException: Unknown calling 
-package name error was actually caused by a missing SHA-1 fingerprint registration in Firebase Console, not a code configuration issue. Through systematic troubleshooting, we successfully
+package name error was actually caused by a missing SHA-1 fingerprint registration in Firebase Console, not a code configuration issue. Through systematic troubleshooting, I successfully
 extracted the SHA-1 fingerprint and registered it in Firebase, which should resolve the Google Sign-In authentication problems.
